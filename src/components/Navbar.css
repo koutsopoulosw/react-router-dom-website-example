@@ -1,0 +1,30 @@
+.navbar {
+  background-color: var(--background);
+  border-color: var(--foreground);
+  border-width: 8px;
+  border-radius: 5%;
+  color: var(--primary);
+  font: var(--font);
+  font-size: 24px;
+
+  display: flex;
+  position: fixed;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+.navbar-left {
+  display: flex;
+}
+
+.navbar-center {
+  display: flex;
+}
+
+.navbar-right {
+  display: flex;
+}
