@@ -1,6 +1,7 @@
 import coffeeIcon from '../assets/coffeeIcon.png'
 import StyledNavlink from './StyledNavlink';
 import './Navbar.css'; 
+import { NavLink } from 'react-router';
 
 export default function Navbar() {
   return (
@@ -10,19 +11,19 @@ export default function Navbar() {
         Team Barista Games
       </div>
       <div className='navbar-center'>
-        <StyledNavlink
+        <NavLink
           to="/"
           style={({ isActive }) => {
             return isActive ? { color: "plum" } : {};
             }}           
         >
           Home
-        </StyledNavlink>
-        <StyledNavlink
+        </NavLink>
+        <NavLink
           to="/aboutus"
         >
           About Us
-        </StyledNavlink>
+        </NavLink>
       </div>
       <div className='navbar-right'>
         <a url="google.com">Play Now</a>
