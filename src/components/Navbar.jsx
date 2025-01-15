@@ -11,19 +11,19 @@ export default function Navbar() {
         Team Barista Games
       </div>
       <div className='navbar-center'>
-        <NavLink
+        <StyledNavlink
           to="/"
           style={({ isActive }) => {
             return isActive ? { color: "plum" } : {};
             }}           
         >
           Home
-        </NavLink>
-        <NavLink
+        </StyledNavlink>
+        <StyledNavlink
           to="/aboutus"
         >
           About Us
-        </NavLink>
+        </StyledNavlink>
       </div>
       <div className='navbar-right'>
         <a url="google.com">Play Now</a>

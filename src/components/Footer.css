@@ -3,6 +3,8 @@
   flex: 1;
   flex-direction: column;
   align-items: center;
+  background-color: var(--background);
+  color: var(--primary)
  }
 
  .contact-us-icon-list {

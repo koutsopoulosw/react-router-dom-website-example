@@ -1,11 +1,11 @@
 import { NavLink, Link } from "react-router";
 
-export default function styledNavLink({children}) {
+export default function styledNavLink(props) {
   return (  
-    <NavLink  style={({ isActive }) => {
-    return isActive ? { color: "plum" } : {};
+    <NavLink className={({ isActive }) => {
+      return isActive ? "active-link" : {};
     }}>
-      {children}
+      {props.children}
     </NavLink>
   );
 }
