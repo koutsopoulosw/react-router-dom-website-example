@@ -18,3 +18,7 @@ npm run dev
 # Testing
 
 # Other
+Note - had to set remote origin with username from local pc
+```
+git remote set-url origin https://koutsopoulosw@github.com/koutsopoulosw/react-router-dom-website-example.git
+```
