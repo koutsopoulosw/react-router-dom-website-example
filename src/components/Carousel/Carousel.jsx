@@ -25,7 +25,7 @@ const Carousel = () => {
     if (currentSlideIndex > 0) {
       setCurrentSlideIndex(currentSlideIndex - 1)
     } else {
-      setCurrentSlideIndex(picturesList.length)
+      setCurrentSlideIndex(picturesList.length - 1)
     }
   }
 

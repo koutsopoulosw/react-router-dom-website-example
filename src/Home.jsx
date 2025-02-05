@@ -17,9 +17,11 @@ export default function Home() {
       <Carousel />
 
       <h1>
-        Graphic design is my Passion
+        Graphic design is my Passion (just kidding)
       </h1>
 
+      I'm really not a UI UX designer and this website is still a work in progress - I'll be working to update this as I have time to practice
+      <br />
     </div>
   )
 }

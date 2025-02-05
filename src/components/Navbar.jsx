@@ -14,7 +14,7 @@ export default function Navbar() {
         <StyledNavlink
           to="/"
           style={({ isActive }) => {
-            return isActive ? { color: "plum" } : {};
+            return isActive ? { color: "tan" } : {color: "tan"};
             }}           
         >
           Home

@@ -50,9 +50,9 @@
   --foreground: #f1b57a;
   --background: #4d2600;
   --primary: #006666;
-  --font: Nunito;
+  --font: Garamond;
 }
 
 h1 {
-  font-size: 82px;
+  font-size: 64px;
 }

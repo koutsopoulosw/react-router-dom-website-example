@@ -13,10 +13,12 @@ function App() {
         <Route element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="aboutus" element={<AboutUs />} />
+          <Route path="*" element={<MissingPage />} />
         </Route>
         <Route element={<AuthLayout />}>
           <Route path="login" element={<Login />} />
           <Route path="register" element={<Register />} />
+          <Route path="*" element={<MissingPage />} />
         </Route>
       </Routes>
     </div>
@@ -38,6 +40,9 @@ function Login() {
 }
 function Register() {
   return (<div></div>)
+}
+function MissingPage() {
+  return (<div><h1>404 - Page Missing</h1></div>)
 }
 
 export default App
